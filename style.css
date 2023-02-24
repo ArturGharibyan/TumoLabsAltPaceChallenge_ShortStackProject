@@ -1,0 +1,566 @@
+.int {
+    background-color: #003744FF;
+    color: white;
+}
+
+.Infodesk {
+    display: none;
+    width: 600px;
+    height: 550px;
+    border: 2px solid lightblue;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgb(252, 252, 252);
+    box-shadow: 0px 15px 30px rgb(61, 85, 97);
+    border-radius: 10px;
+    position: fixed;
+    overflow-y: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+::-webkit-scrollbar {
+    width: 5px;
+    visibility: hidden;
+
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 16px #000000;
+
+}
+
+
+
+
+
+.div1 {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+
+.productdivs {
+    width: 650px;
+    height: 400px;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.336);
+    box-shadow: 0 2px 5px rgba(7, 70, 68, 0.616);
+
+}
+
+.productdivs>img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.buttondiv {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.buttondiv2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.buttondiv2>button {
+    width: 300px;
+    height: 40px;
+    background-color: rgb(26, 27, 27);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.buttondiv>button {
+    width: 300px;
+    height: 40px;
+    background-color: rgb(26, 27, 27);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.buttondiv>button:hover {
+    background-color: rgb(55, 56, 56);
+}
+
+.paragraph {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 330px;
+    font-size: 20px;
+    color: rgb(100, 98, 98);
+    padding: 15px;
+}
+
+.imgfood {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 60px
+}
+
+#cancle {
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: none;
+    color: rgb(255, 255, 255);
+}
+
+#cancle:hover {
+    background-color: brown;
+}
+
+.h2 {
+    justify-content: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.685);
+
+}
+
+.deletebutton {
+    margin: 5px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+
+
+}
+
+.setApidiv {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./img/ingredients-cooking-pasta-dry-pasta-mushrooms-sausages-tomatoes-vegetables-top-view-black-wooden-background-free-copy-space_187166-1702\ \(1\).jpg");
+    background-position: center;
+}
+
+.meal-item {
+    width: 100%;
+    height: 300px;
+}
+
+
+
+
+.form>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 20px;
+
+}
+
+.form>div>input {
+    width: 1200px;
+    height: 40px;
+    border: 1px solid lightblue;
+    outline: none;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.185);
+
+}
+
+.form>div>textarea {
+    width: 1200px;
+    height: 250px;
+    border-color: lightblue;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.185);
+
+}
+
+.form>div>button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: rgb(26, 27, 27);
+    border-radius: 5px;
+    color: white;
+
+
+}
+
+.form>div>button:hover {
+    background-color: rgb(51, 53, 53);
+
+}
+
+
+
+.myProductdescription {
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.myProductImg {
+    width: 300px;
+    height: 300px;
+}
+
+.myproductsdiv {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.myproductsdiv>div {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    border: 2px solid lightblue;
+    text-align: center;
+    margin: 10px;
+    overflow-y: auto;
+}
+
+.desc {
+    text-align: center;
+    justify-content: center;
+    margin-top: 220px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+}
+
+.disabled {
+    background-color: rgb(228, 213, 213);
+    color: whitesmoke;
+}
+
+.serchBar {
+    width: 100%;
+    height: 620px;
+    background-image: url("./img/fragrant-spices-herbs-basil-dark-wooden-background-top-view-free-space-text_187166-38082\ \(1\).jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.search-control {
+    width: 400px;
+    height: 55px;
+    font-family: inherit;
+    outline: 0;
+    border: 1px solid var(--tenne-tawny);
+    color: var(--tenne-tawny);
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    box-shadow: 0px 50px 50px rgb(26, 25, 25);
+
+
+}
+
+.search-control::placeholder {
+    color: var(--tenne-tawny);
+}
+
+.search-btn {
+    width: 55px;
+    height: 55px;
+    background: var(--tenne-tawny);
+    color: #ffffff;
+    border: none;
+    border-top-right-radius: 55px;
+    border-bottom-right-radius: 55px;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+    margin-right: 2px;
+
+}
+
+.title {
+    margin-bottom: 50px;
+    font-size: 80px;
+    font-family: 'Smooch', cursive;
+    color: #ffffff;
+    text-shadow: 4px 4px rgb(0, 0, 0);
+
+}
+
+
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #000000a4;
+}
+
+.icons {
+    display: inline-flex;
+    position: absolute;
+    right: 50px;
+    top: 25px;
+}
+
+.icons>img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    left: 0;
+}
+
+.footer_logo {
+    width: 30px;
+    height: 30px;
+}
+
+.phone {
+    width: 30px;
+    height: 30px;
+}
+
+.footer_logoDiv {
+    position: absolute;
+    left: 20px;
+}
+
+/*__________________________*/
+
+
+/* The footer is fixed to the bottom of the page */
+
+.meal-cards {
+    width: 400px;
+    height: 400px;
+}
+
+.footer-distributed {
+    background: #003744FF;
+    background-blend-mode: screen;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+
+.footer-distributed .footer-left img {
+    width: 30%;
+}
+
+.footer-distributed h3 span {
+    color: #811ce0;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-icons>a>i>img {
+    width: 35px;
+    height: 35px;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: #e0ac1c;
+    text-decoration: none;
+    ;
+}
+
+
+/* Footer Right */
+
+.hide {
+    display: none;
+}
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 10px;
+    margin-bottom: 8px;
+}
+
+.footer_logo {
+    width: 100px;
+    min-height: 110px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.logoimage {
+    width: 180px;
+    min-height: 180px;
+    object-fit: cover;
+    border-radius: 100%;
+    box-shadow: 0px 10px 10px black;
+}

@@ -1,0 +1,87 @@
+
+@media screen and (max-width:434px) {
+    .Infodesk {
+        display: none;
+        width: 300px;
+        height: 600px;
+    }
+
+}
+
+@media screen and (max-width:572px) {
+    .form>div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        margin: 20px;
+    }
+}
+
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+
+
+@media(max-width:700px){
+    .title{
+        text-align: center;
+        font-size: 50px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width:1320px) {
+    .form>div>input {
+        width: 800px;
+        
+    }
+    
+    .form>div>textarea {
+        width: 800px;
+       
+       
+    }
+}
+
+@media screen and (max-width:860px) {
+    .form>div>input {
+        width: 400px;
+        
+    }
+    
+    .form>div>textarea {
+        width: 400px;
+       
+       
+    }
+}
+
+@media  screen  and (max-width:470px){
+    .search-control{
+        width: 300px;
+    }
+
+   
+}
+
+
+@media (max-width: 880px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
